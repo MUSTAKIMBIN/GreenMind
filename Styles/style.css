@@ -37,3 +37,9 @@ nav div h1 {
   display: flex;
   gap: 30px;
 }
+/* banner section */
+.banner {
+  height: 50vh;
+  border-radius: 20px;
+  background-color: #c1dcdc;
+}
