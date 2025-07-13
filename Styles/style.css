@@ -7,3 +7,33 @@ header {
   width: 85%;
   margin: 0 auto;
 }
+/* nav bar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+.nav-link {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.nav-link div ul li {
+  list-style: none;
+}
+.nav-link div ul li a {
+  text-decoration: none;
+  color: gray;
+  font-size: small;
+  font-weight: 500;
+  margin: 0 10px;
+}
+nav div h1 {
+  font-family: Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: large;
+}
+.nav-icon {
+  display: flex;
+  gap: 30px;
+}
