@@ -1,6 +1,6 @@
 # GreenMind
 
-### Live Link :
+### Live Link : https://mustakimbin.github.io/GreenMind/
 
 #### Technology Used
 
