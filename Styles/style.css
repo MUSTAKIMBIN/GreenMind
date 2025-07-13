@@ -39,6 +39,8 @@ nav div h1 {
 }
 /* banner section */
 .banner {
+  display: flex;
+  justify-content: space-between;
   height: 50vh;
   border-radius: 20px;
   background-color: #c1dcdc;
@@ -84,4 +86,15 @@ nav div h1 {
   position: absolute;
   left: 220px;
   top: 5px;
+}
+.banner-img {
+  background-image: url("../assets/Rectangle2.png");
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.banner-img img {
+  width: 64.2%;
+  position: relative;
+  left: 100px;
 }
