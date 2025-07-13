@@ -98,3 +98,26 @@ nav div h1 {
   position: relative;
   left: 100px;
 }
+/* beset plant section */
+.best-plant {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 80%;
+  margin: 50px auto;
+}
+.plant-card {
+  width: 180px;
+}
+.plant-card img {
+  width: 100%;
+}
+.plant-card h6 {
+  font-size: small;
+  font-weight: 600;
+  color: #3c3c3c;
+}
+.plant-card p {
+  font-size: 14px;
+  color: #dddddd;
+}
