@@ -140,7 +140,7 @@ nav div h1 {
 /* About us */
 .about-us {
   width: 85%;
-  margin: 50px auto;
+  margin: 100px auto;
   text-align: center;
 }
 .about-us p {
@@ -201,4 +201,31 @@ nav div h1 {
 .speacial-img {
   position: relative;
   bottom: 65px;
+}
+/* testimonial */
+.testimonial {
+  width: 85%;
+  margin: 0 auto;
+}
+.testimonial-container {
+  display: flex;
+  gap: 20px;
+  margin: 30px 0;
+}
+.testimonial-card {
+  background-color: #c1dcdc;
+  border-radius: 10px;
+  padding: 20px;
+}
+.testimonial-card p {
+  color: gray;
+  font-size: 12px;
+}
+.testimonial-card div {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+.testimonial-card div img {
+  width: 15%;
 }
