@@ -138,3 +138,17 @@ nav div h1 {
   color: #dddddd;
 }
 /* About us */
+.about-us {
+  width: 85%;
+  margin: 50px auto;
+  text-align: center;
+}
+.about-us p {
+  font-size: 14px;
+  color: gray;
+  padding: 10px 0;
+}
+.about-div {
+  display: flex;
+  gap: 20px;
+}
