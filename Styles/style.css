@@ -106,6 +106,22 @@ nav div h1 {
   width: 80%;
   margin: 50px auto;
 }
+.plant-info h4 {
+  font-size: medium;
+  font-weight: 600;
+}
+.plant-info p {
+  font-size: 14px;
+  font-weight: 400;
+  color: gray;
+  padding: 15px 0;
+}
+.plant-info button {
+  border: none;
+  background-color: #c1dcdc;
+  border-radius: 5px;
+  padding: 5px 15px;
+}
 .plant-card {
   width: 180px;
 }
