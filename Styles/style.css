@@ -102,8 +102,8 @@ nav div h1 {
 .best-plant {
   display: flex;
   align-items: center;
-  gap: 20px;
-  width: 80%;
+  justify-content: space-between;
+  width: 85%;
   margin: 50px auto;
 }
 .plant-info h4 {
@@ -150,5 +150,19 @@ nav div h1 {
 }
 .about-div {
   display: flex;
-  gap: 20px;
+  justify-content: space-between;
+}
+.about-card i {
+  font-size: 16px;
+  background-color: #c1dcdc;
+  padding: 20px 20px;
+  border-radius: 50%;
+}
+.about-card h6 {
+  font-size: 14px;
+  padding: 10px 0;
+}
+.about-card p {
+  font-size: 12px;
+  color: gray;
 }
