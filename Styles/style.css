@@ -166,3 +166,39 @@ nav div h1 {
   font-size: 12px;
   color: gray;
 }
+/* category */
+.category {
+  text-align: center;
+}
+.category p {
+  font-size: 12px;
+  color: gray;
+  padding: 10px 0;
+}
+.category button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+}
+.category-container {
+  background-color: #c1dcdc;
+  height: 75vh;
+  margin: 40px 0;
+}
+.category-images {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  width: 85%;
+  margin: 0 auto;
+}
+.category-card {
+  width: 200px;
+}
+.category-card img {
+  width: 100%;
+}
+.speacial-img {
+  position: relative;
+  bottom: 65px;
+}
